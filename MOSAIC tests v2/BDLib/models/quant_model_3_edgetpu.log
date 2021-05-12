@@ -1,0 +1,11 @@
+Edge TPU Compiler version 15.0.340273435
+Input: quant_model_3.tflite
+Output: quant_model_3_edgetpu.tflite
+
+Operator                       Count      Status
+
+CONV_2D                        1          Mapped to Edge TPU
+RESHAPE                        3          Mapped to Edge TPU
+DEPTHWISE_CONV_2D              1          Mapped to Edge TPU
+SOFTMAX                        1          Mapped to Edge TPU
+FULLY_CONNECTED                2          Mapped to Edge TPU
